@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 7vh;
+    width: 100%;
+   
+}
+
+.hero > nav{
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   padding-top: 2rem;
+   padding-left: 4rem;
+
+
+}
+.hero > nav> ul{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}

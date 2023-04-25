@@ -1,0 +1,202 @@
+
+
+.big_cl{
+    background-color: var(--font);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(1px);
+    position: relative;
+    box-shadow: 0 0 100px black;
+
+}
+.blubb{
+    background-color: var(--font);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    filter: blur(1.5px);
+    position: absolute;
+  top:80px;
+ right: 16rem;
+}
+
+.blubb1{
+    transform: rotate(160deg); 
+    transform-origin: 47px 60px;
+    -webkit-animation: rotate 2.5s ease-in-out infinite; 
+    animation: rotate 2.7s ease-in-out infinite;
+    display: block;
+}
+
+.blubb2{
+    transform: rotate(154deg); 
+    transform-origin: -5px 25px;
+  -webkit-animation: rotate 2.9s ease-in-out infinite;
+          animation: rotate 2.9s ease-in-out infinite;
+    display: block;
+}
+.blubb3{
+
+    transform: rotate(154deg); 
+    transform-origin: -5px 25px;
+  -webkit-animation: rotate 3.1s ease-in-out infinite;
+          animation: rotate 3.1s ease-in-out infinite;
+    display: block;
+}
+.blubb4{
+
+    transform: rotate(20deg); 
+    transform-origin: 28px 28px;
+  -webkit-animation: rotate 3.3s ease-in-out infinite;
+          animation: rotate 3.3s ease-in-out infinite;
+    display: block;
+}
+.blubb5{
+
+    transform: rotate(252deg); 
+    transform-origin: 25px 25px;
+  -webkit-animation: rotate 3.5s ease-in-out infinite;
+          animation: rotate 3.5s ease-in-out infinite;
+    display: block;
+}
+.blubb6{
+
+    transform: rotate(196deg); 
+    transform-origin: 22px 22px;
+  -webkit-animation: rotate 3.7s ease-in-out infinite;
+          animation: rotate 3.7s ease-in-out infinite;
+    display: block;
+}
+.blubb7{
+
+    transform: rotate(116deg); 
+    transform-origin: 19px 19px;
+  -webkit-animation: rotate 3.9s ease-in-out infinite;
+          animation: rotate 3.9s ease-in-out infinite;
+    display: block;
+}
+.blubb8{
+
+    transform: rotate(40deg); 
+    transform-origin: 16px 16px;
+    -webkit-animation: rotate 4.1s ease-in-out infinite;
+            animation: rotate 4.1s ease-in-out infinite;
+    display: block;
+}
+.blubb9{
+
+    transform: rotate(40deg); 
+    transform-origin: 5px 10px;
+    -webkit-animation: rotate 2.1s ease-in-out infinite;
+            animation: rotate 2.1s ease-in-out infinite;
+    display: block;
+}
+.blubb10{
+
+    transform: rotate(-21deg); 
+    transform-origin: 18px 18px;
+    -webkit-animation: rotate 4.3s ease-in-out infinite;
+            animation: rotate 4.3s ease-in-out infinite;
+    display: block;
+}
+
+.miniball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--font);
+    position: relative;
+    bottom: 13rem;
+    content: ('');
+    left: 4rem;
+    filter: blur(1px);
+    
+}
+.miniball1{
+    display: block;
+    transform: rotate(-170deg);
+    transform-origin: 100px 100px;
+    -webkit-animation: rotate 3.2s ease-in-out infinite;
+    animation: rotate 3.2s ease-in-out infinite;
+}
+.miniball2{
+    display: block;
+    transform: rotate(90deg);
+    transform-origin: 80px 68px;
+    -webkit-animation: rotate 1.9s ease-in-out infinite;
+    animation: rotate 1.9s ease-in-out infinite;
+}
+.miniball3{
+    display: block;
+    transform: rotate(310deg);
+    transform-origin: 50px 168px;
+    -webkit-animation: rotate 3.5s ease-in-outinfinite;
+    animation: rotate 3.5s ease-in-out infinite;
+}
+.miniball4{
+    display: block;
+    transform: rotate(-10deg);
+    transform-origin: 50px 18px;
+    -webkit-animation: rotate 3.5s ease-in-out infinite;
+    animation: rotate 3.5s ease-in-out infinite ;
+}
+.miniball5{
+    display: block;
+    transform: rotate(-110deg);
+    transform-origin: 50px -45px;
+    -webkit-animation: rotate 3.5s linear infinite;
+    animation: rotate 3.5s linear infinite ;
+}
+.miniball6{
+    display: block;
+    transform: rotate(110deg);
+    transform-origin: 50px 45px;
+    -webkit-animation: rotate 3.5s linear infinite;
+    animation: rotate 3.5s linear infinite ;
+}
+.miniball7{
+    display: block;
+    transform: rotate(110deg);
+    transform-origin: -70px -15px;
+    -webkit-animation: rotate 3.5s ease-in-out infinite;
+    animation: rotate 3.5s ease-in-out infinite ;
+}
+.miniball8{
+    display: block;
+    transform: rotate(-110deg);
+    transform-origin: 40px 45px;
+    -webkit-animation: rotate 3.5s ease-in-out infinite;
+    animation: rotate 3.5s ease-in-out infinite;
+}
+.miniball9{
+    display: block;
+    transform: rotate(340deg);
+    transform-origin: 20px -45px;
+    -webkit-animation: rotate 3.5s ease-in-out infinite;
+    animation: rotate 3.5s ease-in-out infinite ;
+}
+.miniball10{
+    display: block;
+    transform: rotate(-210deg);
+    transform-origin: -63px -75px;
+    -webkit-animation: rotate 3.5s ease-in-out infinite;
+    animation: rotate 3.5s ease-in-out infinite ;
+}
+  @-webkit-keyframes rotate {
+    from {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    to {
+      transform: rotate(360deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    to {
+      transform: rotate(360deg) translate3d(0, 0, 0);
+    }
+  }

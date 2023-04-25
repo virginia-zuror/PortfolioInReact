@@ -1,0 +1,46 @@
+.about{
+
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.webs, .skills, .currently{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 70%;
+    background-color: #2e2c46;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.links-prof{
+    display: flex;
+    gap: 1rem;
+}
+.links-prof> a> img, .technologies > abbr> img{
+    width: 80px;
+    height: 50px;
+    object-fit: contain;
+}
+.technologies{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+.technologies >abbr>  img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    filter: contrast(2);
+}
