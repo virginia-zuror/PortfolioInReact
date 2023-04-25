@@ -2,7 +2,7 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer'
-import Hero from './components/hero'
+import Hero from './components/Hero'
 
 const App=()=> {
   
