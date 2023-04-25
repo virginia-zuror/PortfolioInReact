@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Bubbles from '../components/Bubbles/Bubbles'
+import { NavLink } from 'react-router-dom'
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
     </div>
     <div className='subtitle'>
       <h3>My name is Virginia Zurita, </h3>
-      <h3>I am a <a href='about' className='linkto'>web developer</a></h3>
+      <h3>I am a <NavLink to='/about' className='linkto'>web developer</NavLink></h3>
     </div>
     </div>
   )
