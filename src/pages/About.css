@@ -44,3 +44,14 @@
     object-fit: cover;
     filter: contrast(2);
 }
+@media screen and (max-width: 1000px){
+    .about{
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0;
+    }
+    .webs, .skills, .currently{
+        padding: 1rem;
+        width: 90%;
+    }
+}

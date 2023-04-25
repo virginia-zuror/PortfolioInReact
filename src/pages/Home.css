@@ -3,9 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-
-
-
+   
 }
 
 
@@ -65,4 +63,54 @@
     color: #fd4b4b;
     font-weight: 900;
 
+}
+@media screen and (max-width: 1000px){
+    .home{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    .hello{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        width: 100vw;
+        font-size: 7rem;
+        position: unset;
+
+    }
+    .hello .avatar{
+      
+      width: 100%;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      position: unset;
+              
+    }
+  .avatar > img{
+    width: 150px;
+    height: 150px;
+  }
+    .animation{
+        display: none;
+    }
+    .subtitle{
+        position: unset;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        
+    }
 }
