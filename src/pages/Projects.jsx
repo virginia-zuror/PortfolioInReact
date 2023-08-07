@@ -6,6 +6,47 @@ const Projects = () => {
     <div className="projects-grid">
       <figure>
         <div className="text">
+          <h3>Drag-n Drop</h3>
+          <p>
+            You can create a custom web using modules for text entries, images
+            and tables.
+          </p>
+        </div>
+        <h4>Technologies:</h4>
+        <div className="techs">
+          <a
+            className="library"
+            href="https://github.com/atlassian/react-beautiful-dnd/tree/master"
+          >
+            <h4>·React-beautiful-dnd Library·</h4>
+          </a>
+
+          <abbr title="ReactJS">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/logo-react-svgrepo-com_cxinj2.svg"
+              alt="React icon"
+            />
+          </abbr>
+          <abbr title="JavaScript">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png"
+              alt="JavaScript icon"
+            />
+          </abbr>
+          <abbr title="CSS3">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png"
+              alt="CSS3 icon"
+            />
+          </abbr>
+        </div>
+        <div className="links-pr">
+          <h4>Links:</h4>
+          <a href="https://github.com/virginia-zuror/Drag_n_drop">Repository</a>
+        </div>
+      </figure>
+      <figure>
+        <div className="text">
           <h3>NeoVet</h3>
           <p>
             Final bootcamp project. A CRM for veteriany clinics and pet owners,
@@ -22,7 +63,10 @@ const Projects = () => {
             />
           </abbr>
           <abbr title="JavaScript">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png" alt="JavaScript icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png"
+              alt="JavaScript icon"
+            />
           </abbr>
           <abbr title="HTML5">
             <img
@@ -37,10 +81,16 @@ const Projects = () => {
             />
           </abbr>
           <abbr title="HTML5">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png" alt="HTML5 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png"
+              alt="HTML5 icon"
+            />
           </abbr>
           <abbr title="CSS3">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png" alt="CSS3 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png"
+              alt="CSS3 icon"
+            />
           </abbr>
         </div>
         <div className="links-pr">
@@ -76,20 +126,27 @@ const Projects = () => {
             />
           </abbr>
           <abbr title="JavaScript">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png" alt="JavaScript icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png"
+              alt="JavaScript icon"
+            />
           </abbr>
           <abbr title="HTML5">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png" alt="HTML5 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png"
+              alt="HTML5 icon"
+            />
           </abbr>
           <abbr title="CSS3">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png" alt="CSS3 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png"
+              alt="CSS3 icon"
+            />
           </abbr>
         </div>
         <div className="links-pr">
           <h4>Links:</h4>
-          <a
-            href="https://github.com/kareenadg/MARVEL_GROUP_project"
-          >
+          <a href="https://github.com/kareenadg/MARVEL_GROUP_project">
             Repository
           </a>
         </div>
@@ -106,25 +163,30 @@ const Projects = () => {
         <h4>Technologies:</h4>
         <div className="techs">
           <abbr title="JavaScript">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png" alt="JavaScript icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png"
+              alt="JavaScript icon"
+            />
           </abbr>
           <abbr title="HTML5">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png" alt="HTML5 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/html5_n4srbi.png"
+              alt="HTML5 icon"
+            />
           </abbr>
           <abbr title="CSS3">
-            <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png" alt="CSS3 icon" />
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/css-3_hwlemu.png"
+              alt="CSS3 icon"
+            />
           </abbr>
         </div>
         <div className="links-pr">
           <h4>Links:</h4>
-          <a
-            href=" https://neoland-hub-de-juegos.vercel.app/"
-          >
+          <a href=" https://neoland-hub-de-juegos.vercel.app/">
             Deployed on Vercel
           </a>
-          <a
-            href="https://github.com/virginia-zuror/NEOLAND_Hub_de_Juegos"
-          >
+          <a href="https://github.com/virginia-zuror/NEOLAND_Hub_de_Juegos">
             Repository
           </a>
         </div>
