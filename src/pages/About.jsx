@@ -82,8 +82,13 @@ const About = () => {
         <div className="currently">
           <h3>Currently training</h3>
           <div className="technologies">
-            <abbr title="Java">
+            
+          <abbr title="Java">
               <img src="https://res.cloudinary.com/do7bnejaz/image/upload/v1691423081/assets/1366_2000_wkjndh.png" />
+            </abbr>
+
+            <abbr title="GraphQL">
+              <img src="https://www.apollographql.com/blog/static/graphql-banner-771d02dce87b6282bbd1eab221fba366-771d02dce87b6282bbd1eab221fba366.png" />
             </abbr>
           </div>
         </div>

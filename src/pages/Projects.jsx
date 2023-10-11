@@ -6,14 +6,70 @@ const Projects = () => {
     <div className="projects-grid">
       <figure>
         <div className="text">
-          <h3>Drag-n Drop</h3>
+          <h3>Epic app (Real Project) </h3>
+          <p>
+            Web app for residents of a Luxury Complex in Marbella. They can book
+            activities and proceed to the payment without leaving the app. Also,
+            the management team can edit all the services availables, changing
+            prices, schedules, descriptions, images..., they can manage the
+            orders and keep a track of the orders procedure.
+          </p>
+        </div>
+        
+        <div className="techs">
+        <h4>Technologies:</h4>
+          <abbr title="MaterialUI">
+            <img
+              src="https://v4.mui.com/static/logo.png"
+              alt="MaterialUI icon"
+            />
+          </abbr>
+
+          <abbr title="ReactJS">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/logo-react-svgrepo-com_cxinj2.svg"
+              alt="React icon"
+            />
+          </abbr>
+          <abbr title="Typescript">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439352/assets/typescript_pptz1x.png"
+              alt="Typescript icon"
+            />
+          </abbr>
+          <abbr title="NextJS">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1691422826/assets/nextjs_y1ebbc.png"
+              alt="NextJS icon"
+            />
+          </abbr>
+          <abbr title="MongoDB">
+            <img
+              src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/mongodb-logo-svgrepo-com_gemo78.svg"
+              alt="MongoDB icon"
+            />
+          </abbr>
+        </div>
+        <div className="links-pr">
+          <h4>Links:</h4>
+          <a href="https://epic-snowy.vercel.app/">Deployed in Vercel</a>
+          <a href="mailto: virginiazuor@gmail.com">
+            You will need credentials, please contact me to get them.
+          </a>
+        </div>
+      </figure>
+
+      <figure>
+        <div className="text">
+          <h3>Drag-n Drop (Tech assestment)</h3>
           <p>
             You can create a custom web using modules for text entries, images
             and tables.
           </p>
         </div>
-        <h4>Technologies:</h4>
+        
         <div className="techs">
+        <h4>Technologies:</h4>
           <a
             className="library"
             href="https://github.com/atlassian/react-beautiful-dnd/tree/master"
@@ -54,8 +110,9 @@ const Projects = () => {
             communication between the vet clinic and owners.
           </p>
         </div>
-        <h4>Technologies:</h4>
+        
         <div className="techs">
+        <h4>Technologies:</h4>
           <abbr title="ReactJS">
             <img
               src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/logo-react-svgrepo-com_cxinj2.svg"
@@ -117,8 +174,9 @@ const Projects = () => {
             profile.
           </p>
         </div>
-        <h4>Technologies:</h4>
+        
         <div className="techs">
+        <h4>Technologies:</h4>
           <abbr title="ReactJS">
             <img
               src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/logo-react-svgrepo-com_cxinj2.svg"
@@ -160,8 +218,9 @@ const Projects = () => {
             website.
           </p>
         </div>
-        <h4>Technologies:</h4>
+        
         <div className="techs">
+        <h4>Technologies:</h4>
           <abbr title="JavaScript">
             <img
               src="https://res.cloudinary.com/do7bnejaz/image/upload/v1682439893/assets/js_wmihuh.png"
